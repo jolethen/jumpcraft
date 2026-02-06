@@ -5,5 +5,6 @@ local modpath = minetest.get_modpath(minetest.get_current_modname())
 
 dofile(modpath .. "/helm.lua")
 dofile(modpath .. "/movement.lua")
+dofile(modpath .. "/controls.lua")
 
 minetest.log("action", "[jumpcraft] Loaded successfully")
